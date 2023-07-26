@@ -1,11 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fruit brust</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+    <style>
+        .font-g {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="font-g">
+    <header>
+        <div class="navbar rounded-3xl bg-[#F85559;]">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost btn-circle">
+
+                    </label>
+                    <ul class="flex text-[#FFF] text-lg font-medium pl-2 pb-12  gap-7 ">
+                        <li><a>Home </a></li>
+                        <li><a>About us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-center">
+                <img src="images/logo.png" alt="">
+                <a class="btn btn-ghost text-[#FFF] normal-case text-4xl font-semibold">Fruit Burst</a>
+            </div>
+            <div class="navbar-end">
+                <div class="form-control p-5">
+                    <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto" />
+                </div>
+
+
+    </header>
+    <main>
+        <section class="">
+            <div class="hero min-h-full" style="background-image:url('/images/banner2.png')">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-extrabold">Exotic tastes at your<br>doorstep</h1>
+                        <p class="mb-5 font-medium">We supply highly quality organic products</p>
+                        <button class="btn rounded-lg  bg-[#F85559;]">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <section class="flex gap-96 items-center">
+                <div>
+                    <h1 class="font-extrabold text-[#121212] pt-20 ">Deal of the day</h1>
+                    <p class="font-medium  text-{rgba(18, 18, 18, 0.60);} pt-6">Contrary to popular belief, is not
+                        simply random text. <br> It has roots in a piece of classical <br> Latin literature from 45 BC,
+                        making it over 2000 years old.</p>
+                </div>
+                <div class="flex gap-5 pt-20  text-{rgba(18, 18, 18, 1)}">
+                    <div>
+                        <span class="countdown font-mono text-4xl">
+                            <span style="--value:29;"></span>
+                        </span>
+                        days
+                    </div>
+                    <div>
+                        <span class="countdown font-mono text-4xl">
+                            <span style="--value:15;"></span>
+                        </span>
+                        hours
+                    </div>
+                    <div>
+                        <span class="countdown font-mono text-4xl">
+                            <span style="--value:25;"></span>
+                        </span>
+                        min
+                    </div>
+                    <div>
+                        <span class="countdown font-mono text-4xl">
+                            <span style="--value:8;"></span>
+                        </span>
+                        sec
+                    </div>
+                </div>
+            </section>
+            <section class="gap-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!--First Card -->
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img src="/images//fruit6.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title text-2xl">12.90$ - 18.85$</h2>
+                            <p class="text-1xl">Apples</p>
+                        </div>
+                      <div class="pl-14">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+                            <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+                            <path d="M45.9038 0L50.4527 7.00591L58.5214 9.16716L53.264 15.6584L53.7018 24L45.9038 21.0059V0Z" fill="#FBC0A8"/>
+                            <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+                            <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+                            <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+                            <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+                          </svg>
+                          <p class="pl-12 pt-4">Dtails</p>
+                      </div>
+                    </div>
+
+                    <!--second  Card -->
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img src="/images//fruit7.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title text-2xl">12.90$ - 18.85$</h2>
+                            <p class="text-1xl">Orange</p>
+                        </div>
+                        <div class="pl-14">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+                                <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+                                <path d="M45.9038 0L50.4527 7.00591L58.5214 9.16716L53.264 15.6584L53.7018 24L45.9038 21.0059V0Z" fill="#FBC0A8"/>
+                                <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+                                <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+                                <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+                                <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+                              </svg>
+                              <p class="pl-12 pt-4">Dtails</p>
+                          </div>
+                    </div>
+
+                    <!--Third  Card -->
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img src="/images//fruit8.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title text-2xl">12.90$ - 18.85$</h2>
+                            <p class="text-1xl">Red Dragon</p>
+                        </div>
+                        <div class="pl-14">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+                                <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+                                <path d="M45.9038 0L50.4527 7.00591L58.5214 9.16716L53.264 15.6584L53.7018 24L45.9038 21.0059V0Z" fill="#FBC0A8"/>
+                                <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+                                <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+                                <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+                                <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+                              </svg>
+                              <p class="pl-12 pt-4">Dtails</p>
+                          </div>
+                    </div>
+
+                    <!--Fourth Card -->
+                    <div class="card  bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img src="/images//fruit6.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title text-2xl">12.90$ - 18.85$</h2>
+                            <p class="text-1xl">Banana</p>
+                        </div>
+                        <div class="pl-14">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+                                <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+                                <path d="M45.9038 0L50.4527 7.00591L58.5214 9.16716L53.264 15.6584L53.7018 24L45.9038 21.0059V0Z" fill="#FBC0A8"/>
+                                <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+                                <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+                                <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+                                <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+                              </svg>
+                              <p class="pl-12 pt-4">Dtails</p>
+                          </div>
+                    </div>
+                 
+                    <button class="btn bg-[#F85559;] text-[#fff] rounded-lg btn-xs sm:btn-sm md:btn-md lg:btn-lg">Shop All</button>
+                   
+            </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
