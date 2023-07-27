@@ -47,7 +47,7 @@
     </header>
     <main>
         <section class="">
-            <div class="hero h-screen" style="background-image:url('/images/banner2.png')">
+            <div class="hero h-screen" style="background-image:url('./images/banner2.png')">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
@@ -150,7 +150,7 @@
                 <!--second  Card -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                        <img src="/images//fruit7.png" alt="Shoes" class="rounded-xl" />
+                        <img src="./images//fruit7.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title text-2xl">12.90$ - 18.85$</h2>
@@ -185,7 +185,7 @@
                         <input type="checkbox" id="my_modal_6" class="modal-toggle" />
                         <div class="modal">
                             <div class="modal-box">
-                                <img class="pr-12" src="images//fruit2.png" alt="">
+                                <img class="pr-12" src="./images//fruit2.png" alt="">
                                 <h3 class="font-bold text-lg">Orange </h3>
                                 <p class="py-4">Professional employees are there for you to pick the most amazing and
                                     fresh fruits.!</p>
@@ -198,7 +198,7 @@
                             <!--Third  Card -->
                             <div class="card bg-base-100 shadow-xl">
                                 <figure class="px-10 pt-10">
-                                    <img src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                                    <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
                                 </figure>
                                 <div class="card-body items-center text-center">
                                     <h2 class="card-title">12.90$ - 18.85$</h2>
@@ -208,7 +208,7 @@
                             <!--Fourth Card -->
                             <div class="card bg-base-100 shadow-xl">
                                 <figure class="px-10 pt-10">
-                                    <img src="/images//fruit6.png" alt="" />
+                                    <img src="./images//fruit6.png" alt="" />
                                 </figure>
                                 <div class="card-body items-center text-center">
                                     <h2 class="card-title text-2xl">12.90$ - 18.85$</h2>
@@ -245,7 +245,7 @@
                                     <input type="checkbox" id="my_modal_6" class="modal-toggle" />
                                     <div class="modal">
                                         <div class="modal-box">
-                                            <img class="pr-12" src="images/fruit8.png" alt="">
+                                            <img class="pr-12" src="./images/fruit8.png" alt="">
                                             <h3 class="font-bold text-lg">Red Dragon</h3>
                                             <p class="py-4">Professional employees are there for you to pick the most
                                                 amazing and fresh fruits.!</p>
@@ -266,7 +266,7 @@
 
         </section>
         <section>
-            <div class="hero h-screen" style="background-image:url('/images/banner2.png')">
+            <div class="hero h-screen" style="background-image:url('./images/banner2.png')">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
@@ -276,41 +276,55 @@
                             old.</p>
                     </div>
                 </div>
-                <div class="gap-12">
+                <div class="gap-12 flex">
                     <div class="avatar gap-40 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-80 ">
                         <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                             <div>
-                                <img src="/images/member1.png" />
-
-                                <h1>Awlad Hossain</h1>
-                                <p>Fruits Expert</p>
-
+                                <img src="./images/member1.png" />
                             </div>
                             <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                <img src="/images//member2.png" />
-                                <h1>Safia Chowdhury</h1>
-                                <p>Fruits Expert</p>
+                                <img src="./images//member2.png" />
                             </div>
                             <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                <img src="/images//member3.png" />
-                                <h1>Rokib Hossain</h1>
-                                <p>Fruits Expert</p>
+                                <img src="./images//member3.png" />
                             </div>
                             <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                <img src="/images/member4.png" />
-                                <h1>Chaity</h1>
-                                <p>Fruits Expert</p>
+                                <img src="./images/member4.png" />
                             </div>
                         </div>
                     </div>
                 </div>
         </section>
         <section>
-            <div class=" ">
+            <div class="pt-12 ">
                 <h1 class="text-center gap-y-7 font-extrabold">Why Choose Us</h1>
-                <p class="text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of
+                <p class="text-center text-{ rgba(18, 18, 18, 0.60);} ">Contrary to popular belief, is not simply random text. It has roots in a piece of
                     classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
-            </div>
+            
+            <div class="hero min-h-screen bg-base-200">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                  <img src="./images/whychoose1.png" class="max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
+                          </svg>
+                          <h2 class="pl-10">Dedicated Team</h2>
+                          <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+                          <div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                                    <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
+                                  </svg>
+                                  <h2 class="">Fresh is Best</h2>
+                                  <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+                                  </div>
+                           
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
         </section>
     </main>
 
